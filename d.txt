@@ -1,0 +1,28 @@
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills {
+    height: 100vh;
+    padding-left: 10%;
+}
+.skills p , .skills h5{
+    padding-left: 50%;
+}
+
+
+
+
+
+button{
+    background: linear-gradient(180deg,whitesmoke,grey);
+    font-size: 1.25em;
+    color: whitesmoke;
+    height: 10%;
+    width: 10%;
+    border-radius: 15%;
+}
+button:hover{
+
+}
