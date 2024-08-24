@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior:smooth;
+}
+
+i{
+    color: black;
+}
+
+body{
+    font-family: 'Ubuntu';
+    background-color: black;
+    /* background: linear-gradient(90deg,white,black); */
+    color: whitesmoke;
+}
+ h1{
+    position:relative;
+    text-align: center;
+    text-decoration: underline;
+    background: linear-gradient(90deg,white,black);
+    background-clip: text;
+    color: transparent;
+    font-family: 'ubuntu';
+    /* margin: 0; */
+}
+#navigation ul {
+    list-style: none;
+    padding: 0;
+} 
+#navigation img{
+    width: 100px;
+}
+#navigation li{
+    margin-top: 80px ;
+    align-items: center;
+    text-align: center;
+}
+#navigation
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100vh;
+    background: linear-gradient(180deg,whitesmoke,black);
+    /* background-color: whitesmoke; */
+    text-decoration: none;
+    color: black;
+    z-index: 1000; /* Ensure the navigation bar stays on top of other elements */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#home{
+    height: 110vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home h1{
+    /* position: relative; */
+    font-family: 'Single Day';
+    background: linear-gradient(90deg,whitesmoke, black);
+    background-clip: text;
+    color: transparent;
+    font-size: 6em;
+}
+#Aboutme{
+    height: 100vh;
+}
+#Aboutme img{
+    float: left;
+    margin: 210px 20px 100px 150px;
+    width: 250px;
+    border:10px solid #999;
+    border-radius: 50%;
+}
+
+#Aboutme p{
+    margin-top: 200px;
+    margin-right: 50px;
+    font-size: 2em;
+    font-family: 'caveat';
+    color: wh;
+    font-weight: 600px;
+}
+#MySkills {
+    height: 110vh;   
+}
+
+#MySkills h2 {
+    background: linear-gradient(90deg,whitesmoke,black);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.25em;
+    
+}
+#home > h3:first-child{
+    background: linear-gradient(90deg,whitesmoke,black);
+    background-clip: text;
+    color: transparent;
+    font-size: 24em;
+    font-weight: 10;
+}
+#home > h3:last-child {
+    background: linear-gradient(270deg,whitesmoke,black);
+    background-clip: text;
+    color: transparent;
+    font-size: 24em;
+    font-weight: 10;
+  }
+
+.skills h4{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 1.5em;
+}
+.progress-bar{
+    background: #999;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar .html{
+    height: 10px;
+    border-radius: 5px;
+    width: 90%;
+    background: linear-gradient(90deg,brown,red,black);
+    color: transparent;
+}
+.progress-bar .CSS{
+    height: 10px;
+    border-radius: 5px;
+    width: 60%;
+    background: linear-gradient(90deg,brown,red,black);
+    color: transparent;
+}
+.progress-bar .JavaScript{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+    background: linear-gradient(90deg,brown,red,black);
+    color: transparent;
+}
+.progress-bar .Java{
+    height: 10px;
+    border-radius: 5px;
+    width: 75%;
+    background: linear-gradient(90deg,brown,red,black);
+    color: transparent;
+}
+.progress-bar .Python{
+    height: 10px;
+    border-radius: 5px;
+    width: 60%;
+    background: linear-gradient(90deg,brown,red,black);
+    color: transparent;
+}
+.progress-bar .XML {
+    height: 10px;
+    border-radius: 5px;
+    width: 80%;
+    background: linear-gradient(90deg,brown,red,black);
+    color: transparent;
+}
+.progress-bar div span{
+
+    height: 40px;
+    width: 40px;
+    color: black;
+    border-radius: 50%;
+    background: linear-gradient(220deg,white,whitesmoke,black);
+    float: right;
+    margin-top:-15px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skillContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.skills {
+    height: 100vh;
+    padding-left: 10%;
+}
+.skillContainer h5{
+    padding-bottom: 15%;
+}
+.skillContainer p{
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-right: 2%;
+    font-family: 'caveat';
+    font-weight: 600px;
+    font-size: 1.75em;
+}
+.skillContainer p span{
+    font-family: 'ubuntu';
+    background: linear-gradient(90deg,brown,red,whitesmoke);
+    background-clip: text;
+    color: transparent;
+}
+.skillContainer .skills{
+    margin-top: 5%;
+}
+#projects{
+    height: 100vh;
+    width: 100%;
+}
+#projects h2 {
+    background: linear-gradient(90deg,whitesmoke,black);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.25em;
+    
+}
+#contact{
+    height: 50vh;
+    width: 100%;
+    /* background: linear-gradient(180,whitesmoke,black); */
+    background-color: rgb(50, 47, 47);
+    opacity: 0.25;
+
+}
+#contact h2 {
+    background: linear-gradient(90deg,whitesmoke,black);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.25em;
+}
